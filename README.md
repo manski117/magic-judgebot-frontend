@@ -5,7 +5,7 @@
 This is an experimental LLM application which leverages LangChain, prompt engineering and Retreival-Augmented Generation (RAG) to create an AI agent with expert knowledge of the Magic the Gathering card game. Judge Bot has access to all of the rules and card data in Magic the Gathering, and can use the power of AI to help explain card interactions, answer questions about game rules, and more.
 
 ## JudgeBot API
-This site works by making requests to the [Magic JudgeBot API](http://localhost:3000), also developed by manski117. 
+This site works by making requests to the [Magic JudgeBot API](https://github.com/manski117/magic-judge-rag), also developed by manski117. 
 
 ## Getting Started
 
