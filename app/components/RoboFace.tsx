@@ -28,7 +28,7 @@ const RoboFace: React.FC = () => {
         `}
       </style>
       <div className="rotate shimmer">
-        <img className="wobble wobbler" src={roboFace.src} alt="Robo Face" />
+        <img className="wobble wobbler" src={roboFace.src} alt="" />
       </div>
     </>
   );

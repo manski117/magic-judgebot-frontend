@@ -111,7 +111,7 @@ export default function Home() {
                 <p>{userQuery}</p>
                 <h3 className="mt-4">Judgebot Answer:</h3>
                 <ReactMarkdown>{llmMessage}</ReactMarkdown>
-                <button onClick={handleHardRefresh} className="btn mt-12 mx-auto w-full text-[20px]">
+                <button onClick={handleHardRefresh} aria-label="Refresh for a new question" className="btn mt-12 mx-auto w-full text-[20px]">
                   Ask another question!
                 </button>
               </div>

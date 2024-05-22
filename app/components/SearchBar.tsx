@@ -63,6 +63,8 @@ function SearchBar({ setResults }: SearchBarProps) {
             key={name}
             className="result-item cursor-pointer text-base-content hover:bg-gray-800"
             onClick={() => handleSelect(name)}
+            role="button"
+            aria-label={`Select card name ${name}`}
           >
             {name}
           </li>

@@ -6,7 +6,7 @@ export default function Footer(){
     return(
         <footer className="footer items-center p-4 bg-neutral text-neutral-content z-20 h-fit lg:h-[241px] xl:h-fit">
           <div className="items-center flex flex-col w-full justify-around gap-y-5 md:gap-0 md:flex-row">
-            <a className="w-[120px] flex justify-center px-3" href="#">
+            <a className="w-[120px] flex justify-center px-3" href="#" aria-label="Navigate to homepage">
               <img
                 className="object-fit w-[120px]"
                 src={roboFace.src}
@@ -66,6 +66,7 @@ export default function Footer(){
                 src="https://img.icons8.com/material-rounded/24/c2cbf5/home.png"
                 className="w-6 h-6"
                 alt="link to homepage"
+                aria-label="Navigate to homepage"
               />
             </a>
             
