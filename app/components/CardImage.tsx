@@ -47,13 +47,13 @@ function CardImage({ cardName }: CardImageProps) {
       {cardData ? (
         <>
           {cardData.image_uris ? (
-            <img src={cardData.image_uris.normal} alt={cardName + " image"} />
+            <img className="rounded-xl" src={cardData.image_uris.normal} alt={cardName + " image"} />
           ) : (
             <p>No image available</p>
           )}
         </>
       ) : (
-        <img src={mtgCardBack.src} alt="default card image" />
+        <img title="select a card in the searchbox above" src={mtgCardBack.src} alt="default card image" />
       )}
     </div>
   );
