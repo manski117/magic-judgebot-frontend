@@ -73,7 +73,7 @@ function MessageForm({ question, onQuestionBlur, onSubmit }: MessageFormProps) {
         </li>
         <li>Be sure to spell the names of any cards or mechanics correctly.</li>
         <li>
-          If you can't remember how a card is spelled, feel free to use the card
+          If you cannot remember how a card is spelled, feel free to use the card
           search boxes. I will be able to get the card spelling from there.
         </li>
       </ul>

@@ -1,7 +1,11 @@
 import React, { useState, useRef, useEffect } from "react";
 import CardImage from "./CardImage";
 
-function SearchBar({ setResults }) {
+interface SearchBarProps {
+    setResults: (result: string) => void;  // Define the type for setResults function
+  }
+
+function SearchBar({ setResults }: SearchBarProps) {
   const [input, setInput] = useState<string>("");
   const [autocompleteResults, setAutocompleteResults] = useState<string[]>([]);
   const wrapperRef = useRef<HTMLDivElement>(null); // Ref for the wrapper div

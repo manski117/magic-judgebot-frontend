@@ -34,7 +34,7 @@ export default function Footer(){
               </h4>
               <p>Developed by @manski117.</p>
               <p className="hidden md:block">
-                Data courtesy of <a href="https://mtgjson.com/">MTGJSON</a> and <a href="https://magic.wizards.com/en/rules">MTG's Comprehensive Rules</a>.
+                Data courtesy of <a href="https://mtgjson.com/">MTGJSON</a> and <a href="https://magic.wizards.com/en/rules">MTG Comprehensive Rules</a>.
               </p>
               <p className="hidden md:block">
                 Images courtesy of{" "}
