@@ -91,7 +91,7 @@ export default function Home() {
   return (
     <div className="flex flex-col bg-base-300 h-fit">
       <header className="w-fit text-3xl lg:text-5xl mx-auto serif label-text">
-        <h1 className="w-fit text-3xl lg:text-5xl mx-auto serif label-text">
+        <h1 className="w-fit text-3xl lg:text-5xl mx-auto serif label-text mb-[10px]">
           Magic Judge Bot
         </h1>
       </header>
